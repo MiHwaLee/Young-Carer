@@ -1,0 +1,159 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 10000px;
+    background-color: rgb(55,55,55);
+}
+
+#fullPage{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+}
+
+#title{
+    color: azure;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    position: fixed;
+    text-align: center;
+    top: 0%;
+    opacity: 0;
+}
+
+#text1{
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: azure;
+    font-size: 15pt;
+    line-height: 42px;
+    position: absolute;
+    top:40%;
+    left: 20%;
+    font-weight: 400;
+    opacity: 0;
+}
+
+
+#text2{
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: azure;
+    font-size: 15pt;
+    line-height: 42px;
+    position: absolute;
+    top:40%;
+    left: 20%;
+    font-weight: 400;
+    opacity: 0;
+}
+
+
+
+#text3{
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: azure;
+    font-size: 15pt;
+    line-height: 42px;
+    position: absolute;
+    top:40%;
+    left: 20%;
+    font-weight: 400;
+    opacity: 0;
+}
+
+
+#text4{
+    width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: azure;
+    font-size: 15pt;
+    line-height: 42px;
+    position: absolute;
+    top:40%;
+    left: 20%;
+    font-weight: 400;
+    opacity: 0;
+}
+
+#source {
+    text-align: right;
+    color: azure;
+    font-size: 9pt;
+    position: absolute;
+    right: 20%;
+    opacity: 0;
+}
+
+.hl{
+    background-color: rgb(255, 248, 47); color: rgb(55, 55, 55);
+}
+
+#img1{
+    width: 13vw;
+    left: 13vw;
+    margin: 2vh;
+    bottom: 15vh;
+    position: absolute;
+    opacity: 0;
+}
+
+#img2{
+    width: 13vw;
+    left: 31vw;
+    margin: 2vh;
+    bottom: 15vh;
+    position: absolute;
+    opacity: 0;
+}
+
+#img3{
+    width: 13vw;
+    left: 49vw;
+    margin: 2vh;
+    bottom: 15vh;
+    position: absolute;
+    opacity: 0;
+}
+
+#img4{
+    width: 13vw;
+    left: 67vw;
+    margin: 2vh;
+    bottom: 15vh;
+    position: absolute;
+    opacity: 0;
+}
+
+#one{
+    position: absolute;
+    bottom: 5vh;
+    width: 10vw;
+    height: 7vh;
+    left: 5vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 164, 164);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    opacity: 0;
+    transition-duration: 1s;
+    text-decoration-line:none;
+}

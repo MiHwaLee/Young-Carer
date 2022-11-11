@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    height: 5000px;
+    background-color: rgb(55, 55, 55);
+}
+
+#fullPage{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+img{
+    width: 100%;
+}
+
+#image0{/*폰 사진*/
+    position: absolute;
+    top: 6vh;
+    width: 20vw;
+    left: 40vw;
+    opacity: 1;
+    transform: scale(1);
+}
+
+#write{ /*이미지*/
+    position: absolute;
+    width: 75vW;
+    left: 12vw;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write0{ /*이번달 병원비 어떻게 하지,,,*/
+    position: absolute;
+    top: 13vh;
+    left: 27vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write1{ /*저녁 알바를 더 해야할까?*/
+    position: absolute;
+    top: 17vh;
+    right: 20vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write2{ /*나는 이렇게 앞으로 살아가야 되는 걸까?*/
+    position: absolute;
+    top: 25vh;
+    left: 40vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write3{ /*왜 나는 보호 받아야 하는 나이에 보호 받지 못 하는거죠,,,?*/
+    position: absolute;
+    top: 35vh;
+    right: 10vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write4{ /*이번에 신청한 지원도 우리 가족에게는 포함이 안돼*/
+    position: absolute;
+    top: 45vh;
+    left: 10vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write5{ /*나는 효자가, 효녀가 아니에요,,,*/
+    position: absolute;
+    top: 55vh;
+    right: 20vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write6{ /*돈이 너무 많이 들어.*/
+    position: absolute;
+    top: 60vh;
+    left: 40vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write7{ /*이 청구서는 뭐지?? 이렇게 많이 나온다고?*/
+    position: absolute;
+    top: 75vh;
+    left: 20vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#write8{ /*나도 진로를 결정하고 싶다. 나도 공부하고 싶다.*/
+    position: absolute;
+    top: 85vh;
+    right: 27vw;
+    color: aliceblue;
+    opacity: 0;
+    transform: scale(0);
+}
+
+#bCover{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(30, 30, 30);
+    opacity: 0.8;
+    transition-duration : 1s;
+}
+
+#one{
+    position: absolute;
+    bottom: 5vh;
+    width: 10vw;
+    height: 7vh;
+    right: 5vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 164, 164);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    opacity: 0;
+    transition-duration : 1s;
+    text-decoration-line:none;
+}
+
+#two{
+    position: absolute;
+    bottom: 5vh;
+    width: 10vw;
+    height: 7vh;
+    left: 5vw;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 164, 164);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    opacity: 0;
+    transition-duration: 1s;
+    text-decoration-line:none;
+}
